@@ -132,6 +132,9 @@ img{
     justify-content: center;
     margin: 10px 0;
 }
+#main-option span{
+    margin: 0 10px;
+}
 .card-container{
     width: 100vw;
     display: flex;
@@ -141,4 +144,7 @@ img{
     margin: 20px 10px;
     width: calc(100% / 6 - 60px);
     text-align: center;
+}
+.padding-span{
+    padding-left: 10px;
 }
