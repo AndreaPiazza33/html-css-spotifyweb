@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 #container{
     width: 100%;
@@ -33,7 +36,6 @@ img{
     margin: auto 0;
     display: flex;
     justify-content: center;
-    background-color:blueviolet;
 }
 .option-label{
     color: white;
