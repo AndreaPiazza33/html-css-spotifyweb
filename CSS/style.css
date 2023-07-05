@@ -109,7 +109,9 @@ img{
     height: 100vh;
     margin-left: 200px;
     margin-top: 50px;
+    margin-bottom: 50px;
     overflow-y: auto;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
