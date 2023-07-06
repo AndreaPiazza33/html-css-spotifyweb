@@ -172,6 +172,13 @@ img{
     margin: 0 10px;
 }
 
+#sidebar-container li:hover{
+    color: white;
+}
+#install-option:hover{
+    color: white;
+}
+
 /* MAIN */
 #main-content{
     margin-left: 200px;
@@ -201,6 +208,9 @@ img{
 #main-option span{
     margin: 0 10px;
 }
+#main-option span:first-of-type{
+    border-bottom: 2px solid hsl(83.65deg 100% 59.22%);
+}
 .card-container{
     width: 100vw;
     display: flex;
@@ -211,14 +221,36 @@ img{
     width: calc(100% / 6 - 60px);
     text-align: center;
 }
+.img-box{
+    position: relative;
+}
+.img-box i{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+}
 .padding-span{
     padding-left: 10px;
 }
+
+.img-box:hover{
+    opacity: 20%;
+}
+.img-box:hover i{
+    display: inline-block;
+}
+#main-option span:hover{
+    color:white ;
+}
+
 
 
 /* RESPONSIVE */
 
 /* Medium */
 @media screen and (max-width:768px) {
-    
+    .card-box{
+        width: calc(100% / 4);
+    }  
 }
