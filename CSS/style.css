@@ -12,7 +12,7 @@ body{
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: aquamarine;
+    background-color:hsl(218.57deg 25.93% 10.59%);
 }
 
 img{
@@ -131,7 +131,7 @@ img{
 #sidebar-container{
     width: 200px;
     height: calc(100% - 50px);
-    background-color:indigo /*hsl(0deg 0% 0%)*/;
+    background-color:hsl(0deg 0% 0%);
     position: fixed;
     top: 0;
     left: 0;
