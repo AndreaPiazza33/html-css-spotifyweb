@@ -32,6 +32,7 @@ img{
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 1;
 }
 .upgrade-box{
     margin: auto 0;
@@ -74,7 +75,6 @@ img{
     flex-direction: row;
     flex-wrap: wrap;
     padding: 10px 5px;
-    font-size: 15px;
 }
 .footer-song-box span:last-of-type {
     color: hsl(0deg 0% 42.75%);
@@ -202,7 +202,7 @@ img{
     color: hsl(0deg 0% 42.75%);
 }
 #main-option{
-    width: 100%;
+    width: calc(100vw - 200px);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -215,13 +215,14 @@ img{
     border-bottom: 2px solid hsl(83.65deg 100% 59.22%);
 }
 .card-container{
-    width: 100vw;
+    width: calc(100vw - 200px);
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
 }
 .card-box{
     margin: 20px 10px;
-    width: calc(100% / 6 - 60px);
+    width: calc(100% / 6 - 30px);
     text-align: center;
 }
 .img-box{
@@ -250,12 +251,27 @@ img{
 }
 
 
-
 /* RESPONSIVE */
 
-/* Medium */
+/* MEDIUM */
 @media screen and (max-width:768px) {
+    
+    /*Main-content*/
+    .card-container{
+        flex-wrap: wrap;
+    }
     .card-box{
-        width: calc(100% / 4);
-    }  
+        width: calc(100% / 4 - 30px);
+    }
+    #main-content{
+        font-size: 10px;
+    }
+    #main-option{
+        flex-wrap: wrap;
+    }
+    #main-option span:last-of-type{
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
 }
