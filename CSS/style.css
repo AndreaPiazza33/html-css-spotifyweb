@@ -298,3 +298,21 @@ img{
         margin-bottom: 20px;
     }
 }
+
+/* SMALL */
+@media screen and (max-width:768px) {
+
+    /* Main content */
+    .card-box{
+        width: calc(100% / 2 - 30px);
+    }
+    #main-option span{
+        width: calc(100% / 3 - 20px);
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #main-option span:last-of-type{
+        width: calc(100% / 3 - 20px);
+        margin: 0 0;
+    }
+}
