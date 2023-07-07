@@ -67,8 +67,8 @@ img{
     color: hsl(0deg 0% 96.86%);
 }
 .footer-img-box{
-    min-width: 40px;
-    min-height: 40px;
+    width: 40px;
+    height: 40px;
     margin: 5px 0;
 }
 .footer-song-box{
@@ -262,7 +262,7 @@ img{
 /* RESPONSIVE */
 
 /* MEDIUM */
-@media screen and (max-width:768px) {
+@media screen and (max-width:992px) {
     
     /*Main-content*/
     .card-container{
@@ -270,9 +270,6 @@ img{
     }
     .card-box{
         width: calc(100% / 4 - 30px);
-    }
-    #main-content{
-        font-size: 10px;
     }
     #main-option{
         flex-wrap: wrap;
@@ -298,7 +295,6 @@ img{
     }
     .footer-song-box span:last-of-type{
         width: 100%;
-        font-size: 10px;
         margin-bottom: 20px;
     }
 }
